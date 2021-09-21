@@ -305,27 +305,32 @@ body {
       @media (max-width: 767px) {
         padding-bottom: 1rem;
       }
-      img {
-        object-fit: cover;
-        transition: transform 1s;
-      }
-      &:hover {
-        cursor: pointer;
-        img{
-          transform: scale(1.2);
-          -webkit-transform: scale(1.2);
-          -moz-transform: scale(1.2);
-          z-index: 0;
+      a{
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        img {
+          object-fit: cover;
+          transition: transform 1s;
+        }
+        &:hover {
+          cursor: pointer;
+          img{
+            transform: scale(1.2);
+            -webkit-transform: scale(1.2);
+            -moz-transform: scale(1.2);
+            z-index: 0;
+          }
         }
       }
+     
     }
     &-image {
-      height: auto;
-      max-height: 100px;
-      max-width: 100px;
+      height: 100px;
+      width: auto;
       @media (max-width: 767px) {
-        max-height: 29px;
-        max-width: 29px;
+        height: 10vw;
+        width: auto;
       }
     }
     &-title {
@@ -541,7 +546,7 @@ body {
     }
   }
   &__svg {
-    max-height: 260px;
+    max-height: 335px;
     transform: scale(1.2) translate(-20%, 0%);
     @media (max-width: 576px){
     max-height: 150px;
