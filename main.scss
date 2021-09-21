@@ -847,14 +847,17 @@ body {
           padding: 4px 1rem 4px 30px;
         }
       }
-      p{
-        margin: 4px;
-        padding-left: 0;
-        font-weight: bold;
-        color: $primary;
-        &:first-child {
-          font-size: 1.2em;
-          line-height: 1.4rem;
+      p {
+        a {
+          margin: 4px;
+          padding-left: 0;
+          font-weight: bold;
+          color: $primary;
+          text-decoration: none;
+          &:first-child {
+            font-size: 1.2em;
+            line-height: 1.4rem;
+          }
         }
         .gray {
           color: $gray;
@@ -870,7 +873,6 @@ body {
       height: 100vw;
       max-height: 500px;
       width: 100%;
-
     }
   }
   

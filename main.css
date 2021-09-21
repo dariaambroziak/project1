@@ -1175,14 +1175,15 @@ body {
   }
 }
 
-.main-hama .contact__content-tel p {
+.main-hama .contact__content-tel p a {
   margin: 4px;
   padding-left: 0;
   font-weight: bold;
   color: #EF0C39;
+  text-decoration: none;
 }
 
-.main-hama .contact__content-tel p:first-child {
+.main-hama .contact__content-tel p a:first-child {
   font-size: 1.2em;
   line-height: 1.4rem;
 }
