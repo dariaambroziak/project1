@@ -792,7 +792,8 @@
 }
 
 .lp-hama .quality__control .number {
-  font-size: 9rem;
+  font-size: 11vw;
+  line-height: 12vw;
   padding-left: 0;
   color: #EF0C39;
   margin: 0;
@@ -801,6 +802,14 @@
 @media (max-width: 576px) {
   .lp-hama .quality__control .number {
     font-size: 4rem;
+    line-height: 6vw;
+  }
+}
+
+@media (min-width: 1350px) {
+  .lp-hama .quality__control .number {
+    font-size: 190px;
+    line-height: 210px;
   }
 }
 
