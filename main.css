@@ -681,6 +681,7 @@
 @media (max-width: 576px) {
   .lp-hama .test__images {
     width: 100%;
+    height: 100%;
   }
 }
 
@@ -690,8 +691,6 @@
 
 .lp-hama .test__content {
   height: 50%;
-  display: flex;
-  align-items: center;
 }
 
 @media (max-width: 576px) {
@@ -705,13 +704,13 @@
 }
 
 .lp-hama .test__content p {
+  margin: 0;
   padding: 2rem 2rem 2rem 75px;
 }
 
 @media (max-width: 767px) {
   .lp-hama .test__content p {
     padding: 40px 30px;
-    margin: 0;
   }
 }
 
