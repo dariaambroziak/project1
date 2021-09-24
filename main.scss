@@ -569,7 +569,7 @@ $primaryLight: #FC6C6D;
       margin: 0;
       @media (max-width: 576px){
         font-size: 4rem;
-        line-height:6vw;
+        line-height:5rem;
       }
       @media (min-width: 1350px){
         font-size: 190px;
@@ -610,14 +610,23 @@ $primaryLight: #FC6C6D;
       height: 55vw;
       min-height: 250px;
      }
-     h2{
-       margin: 0;
-       padding: 0;
-       text-align: center;
-       @media (max-width: 576px){
-         font-size: 4rem;
-       }
-     }
+     h2 {
+      font-size: 5vw;
+      line-height: 5.4vw;
+      font-weight: 100;
+      padding-right: 0;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      @media (max-width: 576px){
+        font-size: 4rem;
+        line-height: 5rem;
+      }
+      @media (min-width: 1350px){
+        font-size: 60px;
+        line-height: 68px;
+      }
+    }
      p {
       margin: 1em 0 0 0;
       padding: 0;
@@ -657,10 +666,23 @@ $primaryLight: #FC6C6D;
     color: white;
     @media (max-width: 576px){
       height: 250px !important;
-      h2 {
+     
+    }
+    h2 {
+      font-size: 5vw;
+      line-height: 5.4vw;
+      font-weight: 100;
+      padding-right: 0;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      @media (max-width: 576px){
+        font-size: 4rem;
+        line-height: 5rem;
+      }
+      @media (min-width: 1350px){
         font-size: 60px;
-        font-weight: 100;
-        padding-right: 0;
+        line-height: 68px;
       }
     }
 
@@ -678,8 +700,10 @@ $primaryLight: #FC6C6D;
     &__color {
         background: #EF0C39;
         width: 100%;
+        @media (max-width: 767px){
+          height: 100%;
+        }
         @media (max-width: 576px){
-          height: 17vw;
           max-height: 335px;
           margin-top: -5px;
         }
