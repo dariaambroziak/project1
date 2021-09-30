@@ -816,11 +816,11 @@ $primaryLight: #FC6C6D;
     height: 30vw;
     max-height: 335px;
     width: 100%;
-    background-image: url(images/1350-main/img-9.png);
+    background-image: url(images/lp-hama/1350-main/img-9.png);
     background-size: cover;
    @media (max-width: 576px) {
     height: 75vw;
-    background-image: url(images/320-main/img-9.png);
+    background-image: url(images/lp-hama/320-main/img-9.png);
     max-height: 350px;
     min-height: 250px;
     background-size: cover;
@@ -876,7 +876,7 @@ $primaryLight: #FC6C6D;
 }
 .contact {
   &__content {
-    background-image: url(images/1350-main/img-11.png);
+    background-image: url(images/lp-hama/1350-main/img-11.png);
     background-size: cover;
     background-position: left bottom;
     padding: 1rem 10% 10rem 33%;
@@ -931,7 +931,7 @@ $primaryLight: #FC6C6D;
   }
   &__mobile {
     @media (max-width: 576px) {
-      background-image: url(images/320-main/img-11.png);
+      background-image: url(images/lp-hama/320-main/img-11.png);
       background-size: cover;
       height: 100vw;
       max-height: 500px;
